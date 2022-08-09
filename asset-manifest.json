@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/khanhsodeep/vnexpress.git/static/css/main.618aa419.css",
-    "main.js": "/khanhsodeep/vnexpress.git/static/js/main.fe0dcba4.js",
-    "index.html": "/khanhsodeep/vnexpress.git/index.html",
-    "main.618aa419.css.map": "/khanhsodeep/vnexpress.git/static/css/main.618aa419.css.map",
-    "main.fe0dcba4.js.map": "/khanhsodeep/vnexpress.git/static/js/main.fe0dcba4.js.map"
+    "main.css": "/vnexpress/static/css/main.618aa419.css",
+    "main.js": "/vnexpress/static/js/main.fe0dcba4.js",
+    "index.html": "/vnexpress/index.html",
+    "main.618aa419.css.map": "/vnexpress/static/css/main.618aa419.css.map",
+    "main.fe0dcba4.js.map": "/vnexpress/static/js/main.fe0dcba4.js.map"
   },
   "entrypoints": [
     "static/css/main.618aa419.css",
