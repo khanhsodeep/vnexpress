@@ -13,7 +13,7 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const [openDropdown, setOpenDropDown] = useState(false);
   const [isDarkmode, toggleDarkmode] = useDarkmode();
-
+  let today = new Date().toLocaleDateString()
   //   handle when user click button menu on mobile
   const handleMenu = () => {
     setOpenMenu(!openMenu);
@@ -139,7 +139,7 @@ const Navbar = () => {
             alt=""
           />
           <h6 className="px-4 mx-4 dark:text-gray-300 font-semibold border-l">
-            Thứ ba, 9/8/2022
+            {today}
           </h6>
           {isDarkmode ? (
             <BsMoonStars className="text-white items-center text-xl mx-4" onClick={() => toggleDarkmode(!isDarkmode)} />

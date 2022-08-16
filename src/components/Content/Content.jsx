@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
+import {ContentData} from "./Contentdata";
+import { ContentData2 } from "./ContentData2";
+import { ContentData3 } from "./Contentdata3";
 const Content = () => {
   const axios = require("axios");
+
+  // because newsapi is only used on localhost, I can't use it on Github pages. i created 3 fake API Contentdata,Contentdata2,Contentdata3 will display my content on Github pages
   const [data, setData] = useState([]);
   useEffect(() => {
     const handleGetData = async () => {
@@ -18,13 +23,12 @@ const Content = () => {
   return (
     <>
       <div className="flex flex-col m-4 lg:hidden">
-        {data.map((acticle, index) => {
+        {ContentData.map((acticle, index) => {
           return (
             <div
               key={index}
               className="flex flex-col border-b
                     md:grid md:grid-cols-2
-                   
                     "
             >
               <a className="text-xl font-bold dark:text-white my-3" href="">
@@ -51,7 +55,7 @@ const Content = () => {
           <h1 className="text-3xl font-bold dark:text-gray-100">
             TIN TỨC MỚI NHẤT
           </h1>
-          {data.map((article, index) => {
+          {ContentData2.map((article, index) => {
             return (
               <div
                 key={index}
@@ -71,7 +75,7 @@ const Content = () => {
           <h1 className="text-3xl font-bold dark:text-gray-100 pl-20">
             CÁC TIN TỨC LIÊN QUAN
           </h1>
-          {data.map((article, index) => {
+          {ContentData3.map((article, index) => {
             return (
               <div className="flex pl-20">
                 <div
