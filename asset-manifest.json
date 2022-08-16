@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/vnexpress/static/css/main.618aa419.css",
-    "main.js": "/vnexpress/static/js/main.fe0dcba4.js",
+    "main.css": "/vnexpress/static/css/main.0a7e7991.css",
+    "main.js": "/vnexpress/static/js/main.bb87464e.js",
     "index.html": "/vnexpress/index.html",
-    "main.618aa419.css.map": "/vnexpress/static/css/main.618aa419.css.map",
-    "main.fe0dcba4.js.map": "/vnexpress/static/js/main.fe0dcba4.js.map"
+    "main.0a7e7991.css.map": "/vnexpress/static/css/main.0a7e7991.css.map",
+    "main.bb87464e.js.map": "/vnexpress/static/js/main.bb87464e.js.map"
   },
   "entrypoints": [
-    "static/css/main.618aa419.css",
-    "static/js/main.fe0dcba4.js"
+    "static/css/main.0a7e7991.css",
+    "static/js/main.bb87464e.js"
   ]
 }
